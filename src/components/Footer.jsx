@@ -17,7 +17,7 @@ function Footer() {
             </div>
             <p className='mt-2 ms-5' style={{textAlign:'justify'}}>Lorem ipsum dolor, sit amet consectetur adip isicing elit. Fugiat dol ores ea. Mafgt hitr sjafu hbgjs. s</p>
         </div>
-        <div className='justify-self-center  text-white'>
+        <div className='justify-center md:justify-self-center text-white'>
             <h2 className='fa-2x ms-5'>LINKS</h2>
             <ul className='list-none'>
                 <Link to={'/'}><li className=' mt-2 ms-5 mb-2'>Home</li></Link>
@@ -25,7 +25,7 @@ function Footer() {
                 <Link to={'/wishlist'}><li className='ms-5 '>Wishlist</li></Link>
             </ul>
         </div>
-        <div className='justify-self-center  text-white'>
+        <div className='justify-center md:justify-self-center text-white'>
             <h2 className='fa-2x ms-5 '>GUIDES</h2>
             <ul className='list-none'>
                 <li className=' mt-2 ms-5 mb-2'>React</li>
@@ -33,7 +33,7 @@ function Footer() {
                 <li className='ms-5 '>Tailwind</li>
             </ul>
         </div>
-        <div className='justify-self-center  text-white' >
+        <div className='justify-center md:justify-self-center  text-white' >
             <h2 className='fa-2x ms-5 '>CONTACT US</h2>
             <input  type="text" placeholder='Enter you email id' className='mt-2 text-black py-2 focus:ring-0 rounded-e-xlfocus:ring-2 focus:ring-inset ms-5 focus:ring-indigo-600 rounded-md ' />
             <button className='bg-red-600 rounded-md px-3 py-2 ms-5 border mt-md mt-3 border-black'>SUBSCRIBE</button>
