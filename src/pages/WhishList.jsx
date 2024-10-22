@@ -1,6 +1,7 @@
 import React from 'react'
-import { faCartShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faHeart, faTrash } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 function WhishList() {
   return (
@@ -15,7 +16,7 @@ function WhishList() {
             <h6 className='mt-3'>Price : <span className='text-blue-700'>$ 10</span></h6>
   
             <div className='flex justify-between mt-3'>
-              <button><FontAwesomeIcon icon={faHeart} className='p-3 rounded bg-red-600 text-white'/></button>
+              <button><FontAwesomeIcon icon={faTrash}  className='p-3 rounded bg-red-600 text-white'/></button>
               <button><FontAwesomeIcon icon={faCartShopping} className='p-3 rounded bg-green-600 text-white'/></button>
             
             </div>
